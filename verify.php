@@ -15,7 +15,7 @@
         // execute the query
         $stmt->execute();
     
-        header("http://localhost:8080/wtc-camagru/l/login.php");
+        header("http://localhost:8080/camagru/login.php");
         exit;
     }
     catch(PDOException $e) {

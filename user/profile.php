@@ -17,22 +17,9 @@
 <body>
 
 <div id="page">
-    <div class="cont">
-        <div id="logo">
-            <h1><a href="/" id="logoLink">Logo | Camagru_ </a></h1>
-        </div>
-        <ul class="navi">
-            <li><a href="#/home.html">Profile</a></li>
-            <li><a href="#/about.html">Notifications</a></li>
-            <li><a href="#/contact.html">Insights</a></li>
-            <li><a href="#/contact.html">Messages</a></li>
-            <li><a href="#/contact.html">Find</a></li>
-            <li><a href="#/contact.html">Logout</a></li>
-        </ul>
-    </div>
-    <div class="divider">
-        <!--separates -->
-    </div>
+
+  <!-- The navigation bar -->
+  <?php include('../headnfoot/header.php') ?>
     <div class="main-blog">
 
         <div class="content">

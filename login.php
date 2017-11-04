@@ -13,7 +13,7 @@
 	$err = 0;
 
 	if ( isset($_POST['log_user']) ){
-			$c->login('blog.php');
+			$c->login('user/blog.php');
 	}
 ?>
 <html>

@@ -77,7 +77,7 @@
         </div>
 
         <div class="container" style="background-color:#E0E0E0 padding-top: 15px;">
-            <button type="button" class="cancelbtn"><a href="http://localhost:8080/wtc-camagru/l/login.php">Cancel</a></button>
+            <button type="button" class="cancelbtn"><a href="http://localhost:8080/camagru/login.php">Cancel</a></button>
         </div>
     </form>
 </div>

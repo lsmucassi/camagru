@@ -267,7 +267,7 @@ if(!class_exists('Cam')){
 				<br>
 				<br>
 
-				<button><a href='http://localhost:8080/wtc-camagru/l/reset.php?login=$username&hash=$hash'> Click Here! </a></button>
+				<button><a href='http://localhost:8080/camagru/reset.php?login=$username&hash=$hash'> Click Here! </a></button>
 
 				<br>
 				<br>
