@@ -38,7 +38,7 @@
             <?php include('headnfoot/preheader.php') ?>
 		<div class="card">
 			<form method="post" action="index.php">
-				<button class="head" >Sign Up</button>
+				<button class="head" type="submit" name="reg_user">Sign Up</button>
 
 				<div class="imgcontainer">
 					<img src="img/sidepic.gif" alt="Avatar" class="avatar">
@@ -72,6 +72,6 @@
 		</div>
 		</div>
 			<!-- footer -->
-        <?php include('../headnfoot/footer.php') ?>
+        <?php include('headnfoot/footer.php') ?>
 	</body>
 </html>

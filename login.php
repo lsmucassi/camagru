@@ -25,17 +25,8 @@
 
 	<body>
 		<div id="page">
-		<div class="cont">
-			<div id="logo">
-				<h1><a href="/" id="logoLink">Logo | Camagru_ </a></h1>
-			</div>
-			<ul class="navi">
-				<li><a href="#/home.html">Login</a></li>
-			</ul>
-		</div>
-		<div class="divider">
-			<!--separates -->
-		</div>
+            <!-- header -->
+            <?php include('headnfoot/preheader.php') ?>
 
 		<div class="card">
 			<form action="" method="post" autocomplete="on">
@@ -67,7 +58,8 @@
 			</form>
 		</div>
 	</div>
-	<footer class="footer">This footer will always be positioned at the bottom of the page, but <strong>not fixed</strong>.</footer>
-	</body>
+    <!-- footer -->
+        <?php include('headnfoot/footer.php') ?>
+    </body>
 </html>
 
