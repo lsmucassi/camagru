@@ -1,10 +1,6 @@
 <?php
 	require_once('load.php');
 
-	if ( $_GET['action'] == 'logout' ) {
-		$loggedout = $c->logout();
-	}
-
 	$sql = "SELECT * FROM cm_users WHERE user_login = '" . $_POST['username'] . "'";
 	$link = new PDO("mysql:host=localhost;dbname=" . DB_NAME, DB_USER, DB_PASS);
 	$sth = $link->prepare( $sql );

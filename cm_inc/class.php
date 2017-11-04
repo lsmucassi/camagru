@@ -183,7 +183,7 @@ if(!class_exists('Cam')){
 			$userout = setcookie('camlogauth[user]', '', -3600, '', '', '', true);
 			
 			if ( $idout == true && $userout == true ) {
-				return true;
+				header("Location: login.php");
 			} else {
 				return false;
 			}
