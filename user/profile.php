@@ -1,0 +1,56 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: lmucassi
+ * Date: 2017/10/26
+ * Time: 5:01 PM
+ */
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="wbstyles/profile.css">
+    <script src="wbscripts/profile.js"></script>
+    <meta charset="UTF-8">
+    <title>Camagru | Home_ </title>
+</head>
+<body>
+
+<div id="page">
+    <div class="cont">
+        <div id="logo">
+            <h1><a href="/" id="logoLink">Logo | Camagru_ </a></h1>
+        </div>
+        <ul class="navi">
+            <li><a href="#/home.html">Profile</a></li>
+            <li><a href="#/about.html">Notifications</a></li>
+            <li><a href="#/contact.html">Insights</a></li>
+            <li><a href="#/contact.html">Messages</a></li>
+            <li><a href="#/contact.html">Find</a></li>
+            <li><a href="#/contact.html">Logout</a></li>
+        </ul>
+    </div>
+    <div class="divider">
+        <!--separates -->
+    </div>
+    <div class="main-blog">
+
+        <div class="content">
+            <div class="card">
+                <div class="firstinfo"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/mrvanz/128.jpg"/>
+                    <div class="profileinfo">
+                        <h1>Francesco Moustache</h1>
+                        <h3>Python Ninja</h3>
+                        <p class="bio">Lived all my life on the top of mount Fuji, learning the way to be a Ninja Dev.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="badgescard"> <span class="devicons devicons-django"></span><span class="devicons devicons-python"> </span><span class="devicons devicons-codepen"></span><span class="devicons devicons-javascript_badge"></span><span class="devicons devicons-gulp"></span><span class="devicons devicons-angular"></span><span class="devicons devicons-sass"> </span></div>
+        </div>
+
+    </div>
+
+</div>
+<footer class="footer">This footer will always be positioned at the bottom of the page, but <strong>not fixed</strong>.</footer>
+</body>
+</html>
