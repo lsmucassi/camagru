@@ -1,5 +1,9 @@
 <?php
-    
+    require_once('../load.php');
+
+    if (empty($_COOKIE['camlogauth'])){
+        $c->checkLogin();
+    }
 ?>
 <!DOCTYPE html>
 <html>

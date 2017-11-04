@@ -1,6 +1,10 @@
 <?php
 	require_once('load.php');
 
+	if (!empty($_COOKIE['camlogauth'])){
+        header("Location: user/blog.php");
+    }
+
 	$sql = "SELECT * FROM cm_users WHERE user_login = '" . $_POST['username'] . "'";
 	$link = new PDO("mysql:host=localhost;dbname=" . DB_NAME, DB_USER, DB_PASS);
 	$sth = $link->prepare( $sql );

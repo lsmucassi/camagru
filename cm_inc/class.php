@@ -73,7 +73,7 @@ if(!class_exists('Cam')){
 						<br>
 						Please verify your account by clicking the link below <br>
 
-						<button><a href='http://127.0.0.1:8080/wtc-camagru/wtc-camagru/verify.php?user=$userlogin&hash=$userpass'> Click Here! </a></button>
+						<button><a href='http://127.0.0.1:8080/camagru/verify.php?user=$userlogin&hash=$userpass'> Click Here! </a></button>
 						<br>
 						<br>
 						Kind regards<br>
@@ -231,11 +231,11 @@ if(!class_exists('Cam')){
 				}
 			} else {
 				//Build our redirect
-				$url = "http" . ((!empty($_SERVER['HTTPS'])) ? "s" : "") . "://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
-				$redirect = str_replace('index.php', 'login.php', $url);
+				$url = "http" . ((!empty($_SERVER['HTTPS'])) ? "s" : "") . "://" . $_SERVER['SERVER_NAME'] . ":8080" . $_SERVER['REQUEST_URI'];
+				$redirect = str_replace('user/blog.php', 'login.php', $url);
 				
 				//Redirect to the home page
-				header("Location: $redirect?msg=login");
+				header("Location: $redirect");
 				exit;
 			}
 			
