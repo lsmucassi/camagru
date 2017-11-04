@@ -14,9 +14,6 @@
     
         // execute the query
         $stmt->execute();
-    
-        header("http://localhost:8080/camagru/login.php");
-        exit;
     }
     catch(PDOException $e) {
         echo $sql . "<br>" . $e->getMessage();

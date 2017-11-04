@@ -34,11 +34,10 @@
 
 				<div class="container">
 					<label><b>Username</b></label>
-					<input class="balloon" type="text" placeholder="Enter Username" name="username" required>
+					<input class="balloon" type="text" name="username" value="<?php if (!empty($_COOKIE['camlogauth[user]'])) echo $_COOKIE['camlogauth[user]']; else echo "";?>" required>
 
 					<label><b>Password</b></label>
-					<input type="password" placeholder="Enter Password" name="password" required>
-
+					<input type="password" name="password" value="<?php if (!empty($_COOKIE['camlogauth[authID]'])) echo $_COOKIE['camlogauth[authID]']; else echo "";?>" required>
 					
 					<button class="button" type="submit" name="log_user">Sign In</button>
 					

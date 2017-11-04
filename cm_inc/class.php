@@ -25,7 +25,7 @@ if(!class_exists('Cam')){
 				 * the form submission didn't come from the register.php page on our server,
 				 * we don't allow the data through.
 				 */
-				if ( $referrer == $current ) {
+				if ( $referrer == $current || $referrer == "http://localhost:8080/camagru/index.php#/home.html" ) {
 				
 					//Require our database class
 					require_once('db.php');
@@ -129,11 +129,6 @@ if(!class_exists('Cam')){
 				$sth = $link->prepare( $sql );
 				$sth->execute();
 				$results = $sth->fetchAll( PDO::FETCH_ASSOC );
-
-				//Kill the script if the submitted username doesn't exit
-				if ( empty($results[0]) ) {
-					die('Sorry, that username does not exist!');
-				}
 				
 				//The registration date of the stored matching user
 				$storeg = $results[0]['user_registered'];
@@ -155,7 +150,9 @@ if(!class_exists('Cam')){
 					
 					//Set our authorization cookie
 					setcookie('camlogauth[user]', $subname, 0, '', '', '', true);
+					//setcookie ("camlogauth[user]", $subname, time() + (10 * 365 * 24 * 60 * 60));
 					setcookie('camlogauth[authID]', $authID, 0, '', '', '', true);
+					//setcookie ("camlogauth[authID]", $authID, time() + (10 * 365 * 24 * 60 * 60));
 					
 					//Build our redirect
 					$url = "http" . ((!empty($_SERVER['HTTPS'])) ? "s" : "") . "://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
@@ -172,8 +169,6 @@ if(!class_exists('Cam')){
 						echo "<script type='text/javascript'>alert('Username or password you entered is incorrect :(')</script>";
 					}
 				}
-			} else {
-				die ("EMPTY");
 			}
 		}
 		
