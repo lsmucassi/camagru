@@ -9,41 +9,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="wbstyles/blogstyle.css">
-    <link rel="stylesheet" type="text/css" href="wbstyles/camstyle.css">
+    <link rel="stylesheet" type="text/css" href="../wbstyles/blogstyle.css">
+    <link rel="stylesheet" type="text/css" href="../wbstyles/camstyle.css">
     <meta charset="UTF-8">
     <title>Camagru | Home_ </title>
-    <script src="wbscripts/blogscript.js"></script>
+    <script src="../wbscripts/blogscript.js"></script>
 </head>
 <body>
 
 <div id="page">
-<<<<<<< HEAD:wtc-camagru/user/blog.php
     <!-- The navigation bar -->
-=======
-    <div class="cont">
-        <div id="logo">
-            <h1><a href="home.php" id="logoLink">Camagru_ </a></h1>
-        </div>
-        <ul class="navi">
-            <li><a href="user/profile.php">Profile</a></li>
-            <li><a href="#/about.html">Notifications</a></li>
-            <li><a href="#/contact.html">Insights</a></li>
-            <li><a href="#/contact.html">Messages</a></li>
-            <li><a href="#/contact.html">Find</a></li>
-            <li><a href="#/contact.html">Logout</a></li>
-        </ul>
-    </div>
-    <!-- grey separator -->
-    <div class="divider">
-        <!--separates -->
-    </div>
->>>>>>> fcfdebbafba9ea36d31dd8bdab7d0e0c8cdd8026:wtc-camagru/blog.php
+    <?php include('../headnfoot/header.php') ?>
      <!-- the while page -->
     <div class="main-page">
         <!-- camera first -->
         <div class="cam-colum cam-html">
-            <h3 class="cam-h3">Demo: Take a Selfie With JavaScript</h3>
+            <h3 class="cam-h3">Camagru Cam</h3>
             <!-- camera -->
             <div class="container">
                 <div class="app">
@@ -222,9 +203,7 @@
                     </ul>
                 </div>
             </div>
-
-
-            <footer class="footer">This footer will always be positioned at the bottom of the page, but <strong>not fixed</strong>
+            <?php include('../headnfoot/footer.php') ?>
     </footer>
 </div>
 </body>

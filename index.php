@@ -35,7 +35,7 @@
 	<body>
 		<div id="page">
 		<!-- Header -->
-
+            <?php include('headnfoot/preheader.php') ?>
 		<div class="card">
 			<form method="post" action="index.php">
 				<button class="head" >Sign Up</button>
@@ -72,5 +72,6 @@
 		</div>
 		</div>
 			<!-- footer -->
+        <?php include('../headnfoot/footer.php') ?>
 	</body>
 </html>
