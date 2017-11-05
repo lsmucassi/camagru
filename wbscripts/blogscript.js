@@ -1,4 +1,5 @@
 // References to all the element we will need.
+/*
 var video = document.querySelector('#camera-stream'),
     image = document.querySelector('#snap'),
     start_camera = document.querySelector('#start-camera'),
@@ -43,7 +44,7 @@ else{
     );
 
 }
-
+*/
 /*/ Mobile browsers cannot play video without user input,
 // so here we're using a button to start it manually.
 start_camera.addEventListener("click", function(e){

@@ -28,7 +28,17 @@
             <div class="container">
                 <div class="app">
                     <a href="#" id="start-camera" class="visible">Touch here to start the app.</a>
-                    <video id="camera-stream"></video>
+                    <div class="row">
+                    <div class="col-9" id="main">
+                        <div class="row">
+                            <div id="camera">
+                                <video id="video"></video>
+                                <canvas id="canvas"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <script src="../wbscripts/capture.js"></script>
                     <img id="snap">
                     <p id="error-message"></p>
                     <div class="controls">
