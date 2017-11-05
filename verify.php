@@ -20,3 +20,25 @@
     }
     $conn = null;
 ?>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="wbstyles/style.css">
+    <meta charset="UTF-8">
+    <title>Camagru | Login_ </title>
+</head>
+
+<body>
+<div id="page">
+    <!-- header -->
+    <?php include('headnfoot/preheader.php') ?>
+
+    <h2 style="color: #000000; padding-left: 20px;">Message</h2>
+
+    <div class="alert">
+        <span class="closebtn" ><a href="login.php">&rarr;</a></span>
+        <strong>Congradulation!</strong> Your acount have been activated          click the arrow to continue and login.
+    </div>
+    <!-- footer -->
+    <?php include('headnfoot/footer.php') ?>
+</body>
+</html>

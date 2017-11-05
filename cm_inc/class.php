@@ -25,7 +25,7 @@ if(!class_exists('Cam')){
 				 * the form submission didn't come from the register.php page on our server,
 				 * we don't allow the data through.
 				 */
-				if ( $referrer == $current || $referrer == "http://localhost:8080/camagru/index.php#/home.html" ) {
+				if ( $referrer == $current || $referrer == "http://localhost:8080/camagru/") {
 				
 					//Require our database class
 					require_once('db.php');

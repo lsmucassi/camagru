@@ -18,7 +18,7 @@ define('DB_USER', 'root');
 /* DB Password
  * Enter the above user's password below.
  */
-define('DB_PASS', 'william');
+define('DB_PASS', 'ntildels');
 
 //SALT Information
 
