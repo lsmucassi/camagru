@@ -25,31 +25,27 @@
         <div class="cam-colum cam-html">
             <h3 class="cam-h3">Camagru Cam</h3>
             <!-- camera -->
-            <div class="container">
-                <div class="app">
+            <div class="app">
                     <a href="#" id="start-camera" class="visible">Touch here to start the app.</a>
                     <div class="row">
-                    <div class="col-9" id="main">
-                        <div class="row">
-                            <div id="camera">
-                                <video id="video"></video>
-                                <canvas id="canvas"></canvas>
+                        <div class="col-9" id="main">
+                            <div class="row">
+                                <div id="camera">
+                                    <video id="video"></video>
+                                    <canvas id="canvas"></canvas>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    </div>
                     <script src="../wbscripts/capture.js"></script>
-                    <img id="snap">
-                    <p id="error-message"></p>
                     <div class="controls">
                         <a href="#" id="delete-photo" title="Delete Photo" class="disabled"><i class="material-icons">delete</i></a>
-                        <a href="#" id="take-photo" title="Take Photo"><i class="material-icons">camera_alt</i></a>
+                        <a href="#" id="capture" title="Take Photo"><i class="material-icons">camera_alt</i></a>
                         <a href="#" id="download-photo" download="selfie.png" title="Save Photo" class="disabled"><i class="material-icons">file_download</i></a>
                     </div>
                     <!-- Hidden canvas element. Used for taking snapshot of video. -->
                     <canvas></canvas>
                 </div>
-
             </div>
         </div>
         <!-- the posts aside -->

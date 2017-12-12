@@ -12,6 +12,9 @@
             $c->email( $_POST['email'] );
             echo "<script type='text/javascript'>alert('Check " . $_POST['email'] . " to reset your password. :)')</script>";
         }
+        else{
+            echo "<script type='text/javascript'>alert('Invalid email')</script>";
+        }
     }
 ?>
 <!DOCTYPE html>
@@ -28,7 +31,7 @@
 
     <div class="card">
         <form method="post" action="" autocomplete="on">
-            <button class="head" type="submit">Get A New Password</button>
+            <button class="head" type="submit">Reset Password</button>
 
             <div class="imgcontainer">
                 <img src="img/recover.png" alt="Avatar" class="avatar">
@@ -38,11 +41,10 @@
                 <label>Email: </label>
                 <input  id="mail" name="email" placeholder="Email" type="text" required>
                 <button class="rec-psw" type="submit" name="butt">Send</button>
-                
             </div>
 
             <div class="container" style="margin-top: 10px; background-color:#E0E0E0;">
-                <button  type="button" class="cancelbtn" <a href="index.php">Cancel</a></button>
+                <button  type="button" class="cancelbtn" name="cancel"</button><a href="login.php">Cancel</a>
             </div>
         </form>
     </div>

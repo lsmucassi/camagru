@@ -1,22 +1,22 @@
 <?php
 	require_once('load.php');
 	$err = 0;
-	$sql = "SELECT * FROM cm_users WHERE user_login = '" . $_POST["username"] . "'";
+	$sql = "SELECT * FROM cm_users WHERE user_email = '" . $_POST["email"] . "'";
 	$link = new PDO("mysql:host=localhost;dbname=" . DB_NAME, DB_USER, DB_PASS);
 	$sth = $link->prepare( $sql );
 	$sth->execute();
 	$results = $sth->fetchAll( PDO::FETCH_ASSOC );
-	
+
 	if ( isset($_POST['reg_user']) ){
 		if ( $_POST['password_1'] != $_POST['password_2'] ) { 
 			echo "<script type='text/javascript'>alert('The two passwords do not match :(')</script>";
 			$err++;
 		}
-		if ( $_POST['email'] == $results[0]['email'] ) {
+		if ( $_POST['email'] == $results[0]['user_email'] ) {
 			echo "<script type='text/javascript'>alert('Email entered is already in use :(')</script>"; 
 			$err++;
 		}
-		if ( $_POST['username'] == $results[0]['username'] )  {
+		if ( $_POST['username'] == $results[0]['user_login'] )  {
 			echo "<script type='text/javascript'>alert('Username is not available :)')</script>";
 			$err++;
 		}
@@ -64,8 +64,7 @@
 					<input type="checkbox" checked="checked"> Remember me
 				</div>
 
-				<div class="container" style="background-color: #E0E0E0">
-					<button  type="submit" class="cancelbtn">Cancel</button>
+				<div class="container" style="background-color: #E0E0E0; height: 30px;">
 					<span class="sign">Already have an accout? - <a href="login.php">Login</a></span>
 				</div>
 			</form>

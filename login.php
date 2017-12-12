@@ -49,9 +49,8 @@
 
 					<span class="psw">Forgot <a href="forgot.php">password?</a></span>
 				</div>
-
-				<div class="container" style="background-color:#E0E0E0">
-					<button type="button" class="cancelbtn">Cancel</button>
+				<div class="container" style="background-color:#E0E0E0; height: 30px;">
+				
 					<span class="sign">Don't have an accout? - <a href="index.php">Sign Up</a></span>
 				</div>
 			</form>

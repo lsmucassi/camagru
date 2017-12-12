@@ -90,27 +90,19 @@ if(!class_exists('Cam')){
 						exit;
 					}
 					else {
-						die( "DID NOT INSERT" );
+						die( "SEGFAULT" );
 					}
 				} else {
 					die('Your form submission did not come from the correct page. Please check with the site administrator.');
 				}
 			}
 		}
-		/*
-		$url = "http" . ((!empty($_SERVER['HTTPS'])) ? "s" : "") . "://".$_SERVER['SERVER_NAME'] . ":8080" . $_SERVER['REQUEST_URI'];
-            $aredirect = str_replace('forgot.php', 'reset.php', $url);
-            header("Location: $aredirect");
-            exit;
-		*/
+
 		function login($redirect) {
 			global $c_db;
 			$link = new PDO("mysql:host=localhost;dbname=" . DB_NAME, DB_USER, DB_PASS);
 		
 			if ( !empty ( $_POST ) ) {
-				
-				//Clean our form data
-				//$values = $c_db->clean($_POST);
 
 				//The username and password submitted by the user
 				$subname = $_POST['username'];
@@ -120,10 +112,6 @@ if(!class_exists('Cam')){
 				//The name of the table we want to select data from
 				$table = 'cm_users';
 
-				/*
-				 * Run our query to get all data from the users table where the user 
-				 * login matches the submitted login.
-				 */
 				$sql = "SELECT * FROM $table WHERE user_login = '" . $subname . "'";
 				$link = new PDO("mysql:host=localhost;dbname=" . DB_NAME, DB_USER, DB_PASS);
 				$sth = $link->prepare( $sql );
@@ -141,7 +129,7 @@ if(!class_exists('Cam')){
 
 				//Rehash the submitted password to see if it matches the stored hash
 				$subpass = $c_db->hash_password($subpass, $nonce);
-
+				
 				//Check to see if the submitted password matches the stored password
 				if ( $subpass == $stopass && $results[0]['user_confirm'] == 1 ) {
 					//If there's a match, we rehash password to store in a cookie
@@ -253,7 +241,7 @@ if(!class_exists('Cam')){
 
 				$subject = "Reset Password";
 				$username = $res[0]['user_login'];
-				$hash = $res[0]['user_registered'];
+				$user_r = $res[0]['user_registered'];
 				$message = "
 				<br>
 				<br>
@@ -262,7 +250,7 @@ if(!class_exists('Cam')){
 				<br>
 				<br>
 
-				<button><a href='http://localhost:8080/camagru/reset.php?login=$username&hash=$hash'> Click Here! </a></button>
+				<button><a href='http://localhost:8080/camagru/reset.php?login=$username&user_registered=$user_r'> Click Here! </a></button>
 
 				<br>
 				<br>

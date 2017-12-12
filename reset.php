@@ -4,14 +4,14 @@
     if (isset($_POST['reset_butt'])){
         if ($_POST['password_1'] == $_POST['password_2']){
             try {
-                $storeg = $_GET['hash'];
+                $storeg = $_GET['user_registered'];
 
                 //Recreate our NONCE used at registration
                 $nonce = md5('registration-' . $_GET['login'] . $storeg . NONCE_SALT);
-
+                
                 //Rehash the submitted password to see if it matches the stored hash
-                $userpass = $c_db->hash_password($_GET['password_1'], $nonce);
-                $sql = "UPDATE cm_users SET user_pass='$userpass' WHERE user_login='" . $_GET['login'] . "'";
+                $userpass = $c_db->hash_password($_POST['password_1'], $nonce);
+                $sql = "UPDATE cm_users SET user_pass='$userpass' WHERE user_registered='" . $storeg . "'";
     			$link = new PDO("mysql:host=localhost;dbname=" . DB_NAME, DB_USER, DB_PASS);
 				$sth = $link->prepare( $sql );
                 $sth->execute();
@@ -65,7 +65,6 @@
         <div class="container">
             <label><b>New Password</b></label>
             <input class="balloon" type="password" name="password_1" required>
-
 
             <label><b>Confirm Password</b></label>
             <input class="balloon" type="password" name="password_2" required>
