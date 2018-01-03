@@ -6,8 +6,10 @@
     margin: 0;
     padding: 0;
 }*/
-
-.cam-html{
+#video {
+    width: 95%
+}
+.cam-html {
     margin-top: 50px;
     margin-left: 30px;
     background-color: #fff;
@@ -15,7 +17,7 @@
     color: #333;
 }
 
-.cam-h3{
+.cam-h3 {
     font: normal 32px/1.5 'Open Sans', sans-serif;
     color: #2c3e50;
     margin: 50px 0;
@@ -23,7 +25,7 @@
 }
 
 
-.container{
+.container {
     max-width: 1000px;
     margin: 50px auto;
     padding: 20px;
@@ -31,12 +33,12 @@
 
 }
 
-.app{
+.app {
     width: 100%;
     position: relative;
 }
 
-.app #start-camera{
+.app #start-camera {
     display: block;
     border-radius: 3px;
     max-width: 400px;
@@ -49,12 +51,12 @@
     text-align: center;
 }
 
-.app video#camera-stream{
+.app video#camera-stream  {
       width: 100%;
 
 }
 
-.app img#snap{
+.app img#snap {
     position: absolute;
     top: 0;
     left: 0;
@@ -63,7 +65,7 @@
    
 }
 
-.app #error-message{
+.app #error-message {
     width: 100%;
     background-color: #ccc;
     color: #9b9b9b;
@@ -73,7 +75,7 @@
     display: none;
 }
 
-.app .controls{
+.app .controls {
     position: absolute;
     top: 0;
     left: 0;
@@ -86,7 +88,7 @@
     padding: 30px;
   }
 
-.app .controls a{
+.app .controls a {
     border-radius: 50%;
     color: #fff;
     background-color: #111;
@@ -98,26 +100,26 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-.app .controls a:hover{
+.app .controls a:hover {
     opacity: 1;
 }
 
-.app .controls a.disabled{
+.app .controls a.disabled {
     background-color: #555;
     opacity: 0.5;
     cursor: default;
     pointer-events: none;
 }
 
-.app .controls a.disabled:hover{
+.app .controls a.disabled:hover {
     opacity: 0.5;
 }
 
-.app .controls a i{
+.app .controls a i {
     font-size: 18px;
 }
 
-.app .controls #take-photo i{
+.app .controls #take-photo i {
     font-size: 32px;
 }
 
