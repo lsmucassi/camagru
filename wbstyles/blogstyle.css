@@ -22,7 +22,7 @@ body{
     width: 100%;
     margin: 0;
     background: #eee;
-    overflow: scroll;
+   
 
 }
  /* the grey divider */
@@ -35,6 +35,7 @@ body{
 
 #page{
     margin: 5px;
+    overflow: scroll;
 }
 
 #logo{

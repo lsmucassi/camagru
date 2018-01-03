@@ -26,8 +26,8 @@
             <h3 class="cam-h3">Camagru Cam</h3>
             <!-- camera -->
             <div class="app">
-                    <div class="row">
-                        <div class="col-9" id="main">
+                        <div class="row">
+                        <div class="" id="main">
                             <div class="row">
                                 <div id="camera">
                                     <video id="video"></video>
@@ -37,14 +37,15 @@
                         </div>
                     </div>
                     <script src="../wbscripts/capture.js"></script>
-                    <div class="controls">
+                    
+                    <!-- Hidden canvas element. Used for taking snapshot of video. -->
+                    <canvas></canvas>
+                </div>
+                <div class="controls">
                         <a href="#" id="delete-photo" title="Delete Photo" class="disabled"><i class="material-icons">delete</i></a>
                         <a href="#" id="capture" title="Take Photo"><i class="material-icons">camera_alt</i></a>
                         <a href="#" id="download-photo" download="selfie.png" title="Save Photo" class="disabled"><i class="material-icons">file_download</i></a>
                     </div>
-                    <!-- Hidden canvas element. Used for taking snapshot of video. -->
-                    <canvas></canvas>
-                </div>
             </div>
         </div>
         <!-- the posts aside -->

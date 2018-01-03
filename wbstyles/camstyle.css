@@ -7,14 +7,18 @@
     padding: 0;
 }*/
 #video {
-    width: 95%
+    width: 60%;
+    position: relative;
+
 }
+
 .cam-html {
     margin-top: 50px;
     margin-left: 30px;
     background-color: #fff;
     font:normal 16px/1.5 sans-serif;
     color: #333;
+    overflow: scroll;
 }
 
 .cam-h3 {
@@ -25,16 +29,16 @@
 }
 
 
-.container {
+/*.container {
     max-width: 1000px;
     margin: 50px auto;
     padding: 20px;
     background-color: #efefef;
 
-}
+}*/
 
 .app {
-    width: 100%;
+    width: 60%;
     position: relative;
 }
 
