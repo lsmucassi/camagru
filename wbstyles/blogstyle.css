@@ -92,15 +92,18 @@ body{
 }
 
 /*camera space */
-.cam-colum {
-    position: fixed;
-    float: left;
-    width: 60%;
-    margin: 7px;
 
-}
 
 /* the posts aside */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
 .sidebar {
     float: right;
     width: 30%;
@@ -114,7 +117,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.2) 0 4px 2px -2px;
     font-family: "adelle-sans", sans-serif;
     font-weight: 100;
-    margin: 48px auto;
+    margin: 8px auto;
     width: 20rem;
 }
 
@@ -123,12 +126,6 @@ body{
         width: 28rem;
     }
 }
-@media screen and (min-width: 767px) {
-    .blog-container {
-        width: 40rem;
-    }
-}
-
 
 .blog-container a {
     color: #4d4dff;
@@ -309,3 +306,12 @@ body{
     background-color: #efefef;
     text-align: center;
 }
+
+/*
+@media screen and (min-width: 767px) {
+    .blog-container {
+        width: 40rem;
+    }
+}
+
+*/
