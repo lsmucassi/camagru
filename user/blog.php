@@ -38,138 +38,140 @@
                 <video id="img"></video> <!-- img -->
                 <canvas id="canvas"></canvas> <!--canvas -->
                 <script src="../wbscripts/capture.js"></script>
-                  <!-- the controls -->
-        <div class="controls">
-            <a href="#" id="delete-photo" title="Delete Photo" class="disabled"><i class="material-icons">delete</i></a>
-            <a href="#" id="capture" title="Take Photo"><i class="material-icons">camera_alt</i></a>
-            <a href="#" id="download-photo" download="selfie.png" title="Save Photo" class="disabled"><i class="material-icons">file_download</i></a>                    
-        </div>
-            </div>
+            </div> 
          </div>
 
         <!-- captured pic -->
          <div class="captured">
                 the captured pic
-            </div>
+        </div>
          
          <!-- the posts -->
-         <div class="posts">
+        <div class="posts">
             <!-- the posts aside with calls="sidebar" -->
-        <div class="">
-            <!-- blog -->
-            <div class="blog-container">
-                <div class="blog-header">
-                    <div class="blog-cover">
-                        <div class="blog-author">
-                            <h3>Russ Beye</h3>
+            <div class="">
+                <!-- blog -->
+                <div class="blog-container">
+                    <div class="blog-header">
+                        <div class="blog-cover">
+                            <div class="blog-author">
+                                <h3>Russ Beye</h3>
+                            </div>
                         </div>
+                    </div>
+
+                    <div class="blog-body">
+                        <div class="blog-title">
+                            <h1><a href="#">I Like To Make Cool Things</a></h1>
+                        </div>
+                        <div class="blog-summary">
+                            <div>
+                                <textarea rows="10" name="comment" id="comment" placeholder="Comment"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-footer">
+                        <ul>
+                            <li class="published-date">2 days ago</li>
+                            <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">4</span></a></li>
+                      </ul>
+                    </div>
+                </div>
+                <!-- some blog -->
+                <div class="blog-container">
+                    <div class="blog-header">
+                        <div class="blog-cover">
+                            <div class="blog-author">
+                                <h3>Russ Beye</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-body">
+                        <div class="blog-title">
+                            <h1><a href="#">I Like To Make Cool Things</a></h1>
+                        </div>
+                        <div class="blog-summary">
+                            <div>
+                                <textarea rows="10" name="comment" id="comment" placeholder="Comment"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-footer">
+                        <ul>
+                            <li class="published-date">2 days ago</li>
+                            <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">4</span></a></li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="blog-body">
-                    <div class="blog-title">
-                        <h1><a href="#">I Like To Make Cool Things</a></h1>
-                    </div>
-                    <div class="blog-summary">
-                        <div>
-                            <textarea rows="10" name="comment" id="comment" placeholder="Comment"></textarea>
+                <!-- another blog -->
+                <div class="blog-container">
+                    <div class="blog-header">
+                        <div class="blog-cover">
+                            <div class="blog-author">
+                                <h3>Russ Beye</h3>
+                            </div>
                         </div>
+                    </div>
+
+                    <div class="blog-body">
+                        <div class="blog-title">
+                            <h1><a href="#">I Like To Make Cool Things</a></h1>
+                        </div>
+                        <div class="blog-summary">
+                             <div>
+                                <textarea rows="10" name="comment" id="comment" placeholder="Comment"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-footer">
+                        <ul>
+                            <li class="published-date">2 days ago</li>
+                            <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">4</span></a></li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="blog-footer">
-                    <ul>
-                        <li class="published-date">2 days ago</li>
-                        <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">4</span></a></li>
-                  </ul>
-                </div>
+                <!-- blog -->
+                <div class="blog-container">
+                    <div class="blog-header">
+                        <div class="blog-cover">
+                            <div class="blog-author">
+                                <h3>Russ Beye</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-body">
+                        <div class="blog-title">
+                            <h1><a href="#">I Like To Make Cool Things</a></h1>
+                        </div>
+                        <div class="blog-summary">
+                             <div>
+                                <textarea rows="10" name="comment" id="comment" placeholder="Comment"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-footer">
+                        <ul>
+                            <li class="published-date">2 days ago</li>
+                            <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">4</span></a></li>
+                        </ul>
+                    </div>
+                </div> 
             </div>
-            <!-- some blog -->
-            <div class="blog-container">
-                <div class="blog-header">
-                    <div class="blog-cover">
-                        <div class="blog-author">
-                            <h3>Russ Beye</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="blog-body">
-                    <div class="blog-title">
-                        <h1><a href="#">I Like To Make Cool Things</a></h1>
-                    </div>
-                    <div class="blog-summary">
-                        <div>
-                            <textarea rows="10" name="comment" id="comment" placeholder="Comment"></textarea>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="blog-footer">
-                    <ul>
-                        <li class="published-date">2 days ago</li>
-                        <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">4</span></a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- another blog -->
-            <div class="blog-container">
-                <div class="blog-header">
-                    <div class="blog-cover">
-                        <div class="blog-author">
-                            <h3>Russ Beye</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="blog-body">
-                    <div class="blog-title">
-                        <h1><a href="#">I Like To Make Cool Things</a></h1>
-                    </div>
-                    <div class="blog-summary">
-                         <div>
-                            <textarea rows="10" name="comment" id="comment" placeholder="Comment"></textarea>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="blog-footer">
-                    <ul>
-                        <li class="published-date">2 days ago</li>
-                        <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">4</span></a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- blog -->
-            <div class="blog-container">
-                <div class="blog-header">
-                    <div class="blog-cover">
-                        <div class="blog-author">
-                            <h3>Russ Beye</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="blog-body">
-                    <div class="blog-title">
-                        <h1><a href="#">I Like To Make Cool Things</a></h1>
-                    </div>
-                    <div class="blog-summary">
-                         <div>
-                            <textarea rows="10" name="comment" id="comment" placeholder="Comment"></textarea>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="blog-footer">
-                    <ul>
-                        <li class="published-date">2 days ago</li>
-                        <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">4</span></a></li>
-                    </ul>
-                </div>
-            </div> 
+        </div>
+        
+        <!-- the controls -->
+        <div class="controls">
+            <a href="#" id="delete-photo" title="Delete Photo" class="disabled"><i class="material-icons">delete</i></a>
+            <a href="#" id="capture" title="Take Photo"><i class="material-icons">camera_alt</i></a>
+            <a href="#" id="download-photo" download="selfie.png" title="Save Photo" class="disabled"><i class="material-icons">file_download</i></a>                    
         </div>
 
         <!-- the merging pics -->
