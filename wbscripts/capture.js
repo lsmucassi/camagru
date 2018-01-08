@@ -15,6 +15,7 @@
         video.play();
     }, function(error) {
         //error code here
+        alert("Problem rendering!")
     });
 
     document.getElementById('capture').addEventListener('click', function() {
