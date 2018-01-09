@@ -12,22 +12,22 @@
 
   <ul class="footer-list-top">
     <li>
-      <h4 class="footer-list-header">The Gift Selection</h4></li>
-    <li><a href="" class="generic-anchor footer-list-anchor">ANGEL FIGURINES</a></li>
-    <li><a href="" class="generic-anchor footer-list-anchor">HOME DECOR</a></li>
-    <li><a href="" class="generic-anchor footer-list-anchor">MUGS</a></li>
-    <li><a href="" class="generic-anchor footer-list-anchor">PET LOVER</a></li>
-    <li><a href="" class="generic-anchor footer-list-anchor" target="_blank">HANDBAGS & JEWELRY</a></li>
+      <h4 class="footer-list-header"></h4></li>
+    <li><a href="" class="generic-anchor footer-list-anchor"></a></li>
+    <li><a href="" class="generic-anchor footer-list-anchor"></a></li>
+    <li><a href="" class="generic-anchor footer-list-anchor"></a></li>
+    <li><a href="" class="generic-anchor footer-list-anchor"></a></li>
+    <li><a href="" class="generic-anchor footer-list-anchor" target="_blank"></a></li>
   </ul>
   
   <ul class="footer-list-top">
     <li id='help'>
-      <h4 class="footer-list-header">Please Help Me</h4></li>
-    <li><a href="" class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT</a></li>
-    <li><a href="" class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
-    <li id='find-a-store'><a href="" class="generic-anchor footer-list-anchor" itemprop="significantLink">STORE LOCATOR</a></li>
-    <li id='user-registration'><a href="" class="generic-anchor footer-list-anchor" itemprop="significantLink">NEW USERS</a></li>
-    <li id='order-tracking'><a href="" itemprop="significantLink" class="generic-anchor footer-list-anchor">ORDER STATUS</a></li>
+      <h4 class="footer-list-header">Cool Things To Do</h4></li>
+    <li><a href="https://blog.smartbear.com/programming/7-silly-programming-challenges-to-do-for-fun/" target="_blank" class="generic-anchor footer-list-anchor" itemprop="significantLink">7 SILLY THINGS </a></li>
+    <li><a href="https://blog.smartbear.com/" class="generic-anchor footer-list-anchor" itemprop="significantLink" target="_blank">Blog: SMART BEAR</a></li>
+    <li id='find-a-store'><a href="http://flashcanvas.net/examples/www.chiptune.com/starfield/starfield.html" target="_blank" class="generic-anchor footer-list-anchor" itemprop="significantLink">THINGS OF WEB</a></li>
+    <li id='user-registration'><a href="https://techcrunch.com/" class="generic-anchor footer-list-anchor" target="_blank" itemprop="significantLink">Blog: TECHCRUNCH</a></li>
+    <li id='order-tracking'><a href="http://weavesilk.com/" itemprop="significantLink" target="_blank" class="generic-anchor footer-list-anchor">CAN YOU DRAW</a></li>
   </ul>
   
   <section class="footer-social-section flex-rw">
