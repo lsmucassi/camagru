@@ -46,7 +46,7 @@
   <section class="footer-bottom-section flex-rw">
 	<div class="footer-bottom-wrapper">   
 		<i class="fa fa-copyright" role="copyright">
-		</i> 2018 Camagru at <address class="footer-address" role="company address">wethinkcode_, JHB</address><span class="footer-bottom-rights"> - All Rights Reserved - </span>
+		</i> <address class="footer-address" role="company address">2018 Camagru at wethinkcode_, JHB </address><span class="footer-bottom-rights"> - All Rights Reserved - </span>
     </div>
 
     <div class="footer-bottom-wrapper">

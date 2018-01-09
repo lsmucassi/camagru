@@ -35,9 +35,12 @@ body{
     width: 100%;
     margin: 0;
     background: #eee;
-   
-
 }
+
+#logoLink {
+  position: fixed;
+}
+
  /* the grey divider */
 .divider {
     height: 10px;
@@ -321,10 +324,10 @@ input[type=text], textarea{
 }
 
 .generic-anchor {
-  color: #8DB9ED;
+  color: #009688;
 }
 .generic-anchor:visited {
-  color: #8DB9ED;
+  color: #009688;
 }
 .generic-anchor:hover {
   color: #ccc;
@@ -427,6 +430,8 @@ footer {
 .footer-address {
   display: inline;
   font-style: normal;
+  font-size: 16px;
+  color: #009688;
 }
 
 @media only screen and (max-width: 768px) {
@@ -543,6 +548,11 @@ footer {
   .footer-bottom-wrapper {
     font-size: 1.3em;
   }
+}
+
+.footer-bottom-rights {
+    color: #009688;
+    font-size: 16px;
 }
 
 
