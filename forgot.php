@@ -49,7 +49,5 @@
         </form>
     </div>
 </div>
-<!-- footer -->
-<?php include('headnfoot/footer.php') ?>
 </body>
 </html>

@@ -8,7 +8,7 @@
             <li><a href="#/about.html">Notifications</a></li>
             <li><a href="#/contact.html">Insights</a></li>
             <li><a href="#/contact.html">Messages</a></li>
-            <li><a href="#/contact.html">Find</a></li>
+            <li><a href="about.php">About</a></li>
             <li><a href="../logout.php">Logout</a></li>
         </ul>
     </div>

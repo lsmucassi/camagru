@@ -81,6 +81,5 @@
     </form>
 </div>
 </div>
-<footer class="footer">This footer will always be positioned at the bottom of the page, but <strong>not fixed</strong>.</footer>
 </body>
 </html>

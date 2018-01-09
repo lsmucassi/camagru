@@ -38,7 +38,5 @@
         <span class="closebtn" ><a href="login.php">&rarr;</a></span>
         <strong>Congradulation!</strong> Your acount have been activated          click the arrow to continue and login.
     </div>
-    <!-- footer -->
-    <?php include('headnfoot/footer.php') ?>
 </body>
 </html>
