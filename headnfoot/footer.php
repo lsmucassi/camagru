@@ -2,12 +2,12 @@
   
   <ul class="footer-list-top">
     <li>
-      <h4 class="footer-list-header">About Pavilion</h4></li>
-    <li><a href='/shop/about-mission' class="generic-anchor footer-list-anchor" itemprop="significantLink">GET TO KNOW US</a></li>
-    <li><a href='/promos.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">PROMOS</a></li>
-    <li><a href='/retailers/new-retailers.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">BECOME A RETAILER</a></li>
-    <li><a href='/job-openings.html' itemprop="significantLink" class="generic-anchor footer-list-anchor">JOB OPENINGS</a></li>
-    <li><a href='/shop/about-show-schedule' class="generic-anchor footer-list-anchor" itemprop="significantLink">EVENTS</a></li>
+      <h4 class="footer-list-header">About Camagru</h4></li>
+    <li><a href="about.php" class="generic-anchor footer-list-anchor" itemprop="significantLink">WHAT THE BYTE IS THIS</a></li>
+    <li><a href="camagru pdf" class="generic-anchor footer-list-anchor" itemprop="significantLink">SPECIFICATIONS</a></li>
+    <li><a href='/retailers/new-retailers.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">RESOURCES</a></li>
+    <li><a href='/job-openings.html' itemprop="significantLink" class="generic-anchor footer-list-anchor">WANT MORE</a></li>
+    <li><a href='/shop/about-show-schedule' class="generic-anchor footer-list-anchor" itemprop="significantLink">HEY! CHECK THIS OUT</a></li>
   </ul>
 
   <ul class="footer-list-top">
@@ -35,7 +35,6 @@
       CONNECT <span class="footer-social-small">with</span> US
       </span>
       <span class="footer-social-overlap footer-social-icons-wrapper">
-      <a href="https://www.pinterest.com/paviliongift/" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fa fa-pinterest"></i></a>
       <a href="https://www.facebook.com/paviliongift" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook"></i></a>
       <a href="https://twitter.com/PavilionGiftCo" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
       <a href="http://instagram.com/paviliongiftcompany" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fa fa-instagram"></i></a>
