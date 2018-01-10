@@ -28,7 +28,7 @@
             <h2>Camagru Cam</h2>
         </div>
         <div class="post-head card">
-            <h2>You posts </h2>
+            <h2>Your posts </h2>
         </div>
 
         <!-- cam here -->
@@ -183,10 +183,8 @@
             the meger
         </div>
     </div>
+     <!-- the footer ->
+    <?php include('../headnfoot/footer.php') ?> -->
 </div>
-
 </body>
-
-    <!-- the footer -->
-    <?php include('../headnfoot/footer.php') ?>
 </html>
