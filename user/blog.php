@@ -169,9 +169,14 @@
         
         <!-- the controls -->
         <div class="controls">
+            <a href="#" id="capture" title="Take Photo"><i class="material-icons">camera_alt</i></a>                
+        </div>
+
+         <!-- the controls2 -->
+        <div class="controls2">
             <a href="#" id="delete-photo" title="Delete Photo" class="disabled"><i class="material-icons">delete</i></a>
             <a href="#" id="capture" title="Take Photo"><i class="material-icons">camera_alt</i></a>
-            <a href="#" id="download-photo" download="selfie.png" title="Save Photo" class="disabled"><i class="material-icons">file_download</i></a>                    
+            <a href="#" id="download-photo" download="selfie.png" title="Save Photo" class="disabled"><i class="material-icons">file_upload</i></a>                    
         </div>
 
         <!-- the merging pics -->

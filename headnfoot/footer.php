@@ -24,7 +24,7 @@
     <li id='help'>
       <h4 class="footer-list-header">Cool Things To Do</h4></li>
     <li><a href="https://blog.smartbear.com/programming/7-silly-programming-challenges-to-do-for-fun/" target="_blank" class="generic-anchor footer-list-anchor" itemprop="significantLink">7 SILLY THINGS </a></li>
-    <li><a href="https://blog.smartbear.com/" class="generic-anchor footer-list-anchor" itemprop="significantLink" target="_blank">Blog: SMART BEAR</a></li>
+    <li><a href="http://www.cross-code.com/en/home" class="generic-anchor footer-list-anchor" itemprop="significantLink" target="_blank">INTO WEB GRAPHICS?</a></li>
     <li id='find-a-store'><a href="http://flashcanvas.net/examples/www.chiptune.com/starfield/starfield.html" target="_blank" class="generic-anchor footer-list-anchor" itemprop="significantLink">THINGS OF WEB</a></li>
     <li id='user-registration'><a href="https://techcrunch.com/" class="generic-anchor footer-list-anchor" target="_blank" itemprop="significantLink">Blog: TECHCRUNCH</a></li>
     <li id='order-tracking'><a href="http://weavesilk.com/" itemprop="significantLink" target="_blank" class="generic-anchor footer-list-anchor">CAN YOU DRAW</a></li>
