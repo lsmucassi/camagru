@@ -24,15 +24,15 @@
     <!-- the whole page -->
     <div class="content">
         <!-- cam and post headers -->
-        <div class="cam-head">
+        <div class="cam-head card">
             <h3>Camagru Cam</h3>
         </div>
-        <div class="post-head">
+        <div class="post-head card">
             <h3>You posts </h3>
         </div>
 
         <!-- cam here -->
-        <div class="cam">
+        <div class="cam card">
             <div class="camera">
                 <video id="video"></video> 
                 <video id="img"></video> <!-- img -->
@@ -42,12 +42,12 @@
          </div>
 
         <!-- captured pic -->
-         <div class="captured">
+         <div class="captured card">
                 the captured pic
         </div>
          
          <!-- the posts -->
-        <div class="posts">
+        <div class="posts card">
             <!-- the posts aside with calls="sidebar" -->
             <div class="">
                 <!-- blog -->
@@ -168,22 +168,23 @@
         </div>
         
         <!-- the controls -->
-        <div class="controls">
+        <div class="controls card">
             <a href="#" id="capture" title="Take Photo"><i class="material-icons">camera_alt</i></a>                
         </div>
 
          <!-- the controls2 -->
-        <div class="controls2">
+        <div class="controls2 card">
             <a href="#" id="delete-photo" title="Delete Photo" class="disabled"><i class="material-icons">delete</i></a>
-            <a href="#" id="capture" title="Take Photo"><i class="material-icons">camera_alt</i></a>
             <a href="#" id="download-photo" download="selfie.png" title="Save Photo" class="disabled"><i class="material-icons">file_upload</i></a>                    
         </div>
 
         <!-- the merging pics -->
-        <div class="merger">
+        <div class="merger card">
             the meger
         </div>
     </div>
+
+    <!-- the footer -->
     <?php include('../headnfoot/footer.php') ?>
 </div>
 </body>

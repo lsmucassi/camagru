@@ -1,4 +1,4 @@
-<footer class="flex-rw">
+<footer class="flex-rw footer">
   
   <ul class="footer-list-top">
     <li>
