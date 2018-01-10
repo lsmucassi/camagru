@@ -25,10 +25,10 @@
     <div class="content">
         <!-- cam and post headers -->
         <div class="cam-head card">
-            <h3>Camagru Cam</h3>
+            <h2>Camagru Cam</h2>
         </div>
         <div class="post-head card">
-            <h3>You posts </h3>
+            <h2>You posts </h2>
         </div>
 
         <!-- cam here -->
@@ -169,7 +169,7 @@
         
         <!-- the controls -->
         <div class="controls card">
-            <a href="#" id="capture" title="Take Photo"><i class="material-icons">camera_alt</i></a>                
+            <a href="#" id="capture" title="Take Photo"><i class="material-icons">all_out</i></a>                
         </div>
 
          <!-- the controls2 -->
@@ -183,9 +183,10 @@
             the meger
         </div>
     </div>
+</div>
+
+</body>
 
     <!-- the footer -->
     <?php include('../headnfoot/footer.php') ?>
-</div>
-</body>
 </html>

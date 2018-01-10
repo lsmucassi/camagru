@@ -5,18 +5,18 @@ h3 {
     text-align: center;
 }
 
+
 .content {
     margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 50px 500px 45px 300px 1fr;
+    grid-template-rows: 50px 500px 45px 300px;
     grid-gap: 1em;
     grid-template-areas:
     "cam-head cam-head post-head"
     "cam captured posts"
     "controls controls2 posts"
     "merger  merger posts"
-    "footer footer footer "
 }
 
 .cam-head {
@@ -50,13 +50,17 @@ h3 {
 }
 
 .merger {
-    
+
     grid-area: merger
 }
 
 .content > div {
     background: #ddd;
     padding: 1em;
+}
+
+.content a {
+    color: #009688;
 }
 
 .card {
