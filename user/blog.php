@@ -35,15 +35,18 @@
         <div class="cam card">
             <div class="camera">
                 <video id="video"></video> 
-                <video id="img"></video> <!-- img -->
+                <!--<video id="img"></video>--> <!-- img -->
                 <canvas id="canvas"></canvas> <!--canvas -->
-                <script src="../wbscripts/capture.js"></script>
+               
             </div> 
          </div>
 
         <!-- captured pic -->
          <div class="captured card">
-                the captured pic
+            <div class="inner">
+                <canvas id="canvas_top_img" class="capture_canvas"></canvas>
+                <canvas id="canvas_captured" class="capture_canvas"></canvas>
+            </div>
         </div>
          
          <!-- the posts -->
@@ -181,13 +184,13 @@
         <!-- the merging pics -->
         <div class="merger card">
             <div class="card">
-                 <img class="merges" src="../mergers/alien.png">
+                 <img class="merges" id="filter_alien" src="../mergers/alien.png">
             </div>
             <div class="card">
-                <img class="merges" src="../mergers/america_flg.png">
+                <img class="merges" id="filter_america_flg" src="../mergers/america_flg.png">
             </div>
             <div class="card">
-                <img class="merges" src="../mergers/boucles_mus.png">
+                <img class="merges" onclick="do_merge(this.src)" src="../mergers/boucles_mus.png">
             </div>
             <div class="card">
                 <img class="merges" src="../mergers/fire_emoj.png">
@@ -209,6 +212,7 @@
     <?php include('../headnfoot/footer.php') ?> 
     </div>
   
+   <script src="../wbscripts/capture.js"></script>
 </div>
 </body>
 </html>

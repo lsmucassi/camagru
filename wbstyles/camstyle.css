@@ -35,6 +35,11 @@ h3 {
     grid-area: captured
 }
 
+.captured .inner{
+    width: 100%;
+    position: relative;
+}
+
 .posts {
     grid-row-start: 3:
     grid-row-end: 4;
@@ -55,7 +60,6 @@ h3 {
 .merger {
     display: grid;
     grid-gap: 1em;
-    opacity: 1%;
     grid-template-columns: repeat(4, 0.5fr);
     grid-area: merger
 }
@@ -97,6 +101,26 @@ h3 {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+#video{
+    background: #000;
+    width: 100%;
+    height: auto;
+}
+
+#canvas_top_img{
+    /*background: red;*/
+    filter: opacity(.5);
+}
+
+#canvas_captured{
+    background: #525252;
+}
+
+.capture_canvas{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 
 /*.content > div:nth-child(odd) {
     background: #ddd;
