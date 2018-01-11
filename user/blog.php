@@ -184,13 +184,13 @@
                  <img class="merges" src="../mergers/alien.png">
             </div>
             <div class="card">
-                <img class="merges" src="../mergers/america.png">
+                <img class="merges" src="../mergers/america_flg.png">
             </div>
             <div class="card">
                 <img class="merges" src="../mergers/boucles_mus.png">
             </div>
             <div class="card">
-                <img class="merges" src="../mergers/fire_emoji.png">
+                <img class="merges" src="../mergers/fire_emoj.png">
             </div>
             <div class="card">
                 <img class="merges" src="../mergers/heart_digi.png">

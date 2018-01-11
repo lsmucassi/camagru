@@ -54,17 +54,22 @@ h3 {
 
 .merger {
     display: grid;
+    grid-gap: 1em;
+    opacity: 1%;
     grid-template-columns: repeat(4, 0.5fr);
     grid-area: merger
 }
 
 .merger > div {
     grid-gap: 1em;
+    height: 30px;
+    width: 40px;
 }
 
 .merges {
     height: 30px;
     width: 40px;
+    justify-self: center;
 }
 
 .footer {
