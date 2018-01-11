@@ -32,11 +32,14 @@
     <!-- header -->
     <?php include('headnfoot/preheader.php') ?>
 
-    <h2 style="color: #000000; padding-left: 20px;">Message</h2>
+    <h2 style="color: #000000; padding-left: 20px;">Welcome</h2>
 
     <div class="alert">
-        <span class="closebtn" ><a href="login.php">&rarr;</a></span>
+        <span class="closebtn" ><a style="color: #009688;" href="login.php">&rarr;</a></span>
         <strong>Congradulation!</strong> Your acount have been activated          click the arrow to continue and login.
     </div>
+    <br>
+    <h2 style="color: #000000; padding-left: 20px;">Enjoy...</h2>
+</div>
 </body>
 </html>

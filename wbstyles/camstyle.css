@@ -12,11 +12,13 @@ h3 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 50px 500px 45px 300px;
     grid-gap: 1em;
+    overflow: hidden;
     grid-template-areas:
     "cam-head cam-head post-head"
     "cam captured posts"
     "controls controls2 posts"
     "merger  merger posts"
+    "footer footer footer"
 }
 
 .cam-head {
@@ -36,6 +38,7 @@ h3 {
 .posts {
     grid-row-start: 3:
     grid-row-end: 4;
+    overflow: scroll;
     grid-area: posts
 }
 
@@ -50,8 +53,22 @@ h3 {
 }
 
 .merger {
-
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
     grid-area: merger
+}
+
+.merger > div {
+    grid-gap: 1em;
+}
+
+.merges {
+    height: 30px;
+    width: 40px;
+}
+
+.footer {
+    grid-area: footer
 }
 
 .content > div {

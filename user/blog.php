@@ -48,9 +48,9 @@
          
          <!-- the posts -->
         <div class="posts card">
-            <!-- the posts aside with calls="sidebar" -->
+            <!-- the posts aside with calls="sidebar" ->
             <div class="">
-                <!-- blog -->
+                <!- blog -->
                 <div class="blog-container">
                     <div class="blog-header">
                         <div class="blog-cover">
@@ -164,7 +164,7 @@
                         </ul>
                     </div>
                 </div> 
-            </div>
+            <!-- </div> -->
         </div>
         
         <!-- the controls -->
@@ -180,11 +180,35 @@
 
         <!-- the merging pics -->
         <div class="merger card">
-            the meger
+            <div class="card">
+                 <img class="merges" src="../mergers/alien.png">
+            </div>
+            <div class="card">
+                <img class="merges" src="../mergers/america.png">
+            </div>
+            <div class="card">
+                <img class="merges" src="../mergers/boucles_mus.png">
+            </div>
+            <div class="card">
+                <img class="merges" src="../mergers/fire_emoji.png">
+            </div>
+            <div class="card">
+                <img class="merges" src="../mergers/heart_digi.png">
+            </div>
+            <div class="card">
+                <img class="merges" src="../mergers/heart_one.png">
+            </div>
+            <div class="card">
+                <img class="merges" src="../mergers/laugh.png">
+            </div>
+            <div class="card">
+                <img class="merges" src="../mergers/nerd_glasses.png">
+            </div>
         </div>
+           <!-- the footer -->
+    <?php include('../headnfoot/footer.php') ?> 
     </div>
-     <!-- the footer ->
-    <?php include('../headnfoot/footer.php') ?> -->
+  
 </div>
 </body>
 </html>
