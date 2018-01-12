@@ -1,4 +1,4 @@
 git add *
 git status
-git commit -m "UI snapshot almostMerged"
+git commit -m "updates"
 git push origin master
